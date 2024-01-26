@@ -33,4 +33,4 @@ Species.nonnative	% cover of non nativevegetation growing in a 1x1m around the p
 Species.mattype	% cover of mat-like vegetation growing in a 1x1m around the planting site
 Species.bare	% cover of bare ground in a 1x1m around the planting site
 Species.SPAD	Mean of three SPAD meter readings done on leaves to approximate chlorophyl content in 2015
-Species.ID	Individual plant ID (unique number 1-8000)![image](https://github.com/Annise-Dobson/Earthworm-Deer-Multiyear/assets/48299491/a3f4f2c1-82ac-4522-ada1-2ca94276b410)
+Species.ID	Individual plant ID (unique number 1-8000)
