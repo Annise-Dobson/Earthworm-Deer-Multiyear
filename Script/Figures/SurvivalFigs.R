@@ -1,3 +1,9 @@
+#### Survival figure ----
+## Code by A.M. Dobson
+# UPDATED January 26 2024
+
+d4 <- read_csv("Data.csv")
+
 library(emmeans)
 library(ggplot2)
 library(gridExtra)
@@ -7,9 +13,6 @@ if (!require(lme4)) {
   install.packages("lme4")
 }
 library(lme4)
-
-# Read the CSV file
-d4 <- read.csv("/Users/annisedobson/Dropbox (YSE)/Data/Lumb x deer/DeerxEW/AllMeasurements.2017.final.csv", check.names=T)
 
 # Species list
 species_list <- c("Actaea", "Adiantum", "Geum", "Agrimonia", "Allium", "Arisaema", 
