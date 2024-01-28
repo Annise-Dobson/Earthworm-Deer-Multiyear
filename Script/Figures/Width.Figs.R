@@ -1,3 +1,9 @@
+#### Width figure ----
+## Code by A.M. Dobson
+# UPDATED January 26 2024
+
+d4 <- read_csv("Data.csv")
+
 # Load the necessary libraries
 if (!require(lme4)) {
   install.packages("lme4")
@@ -7,9 +13,7 @@ if (!require(lmerTest)) {
 }
 library(lme4)
 library(lmerTest)
-
 library(readr)
-d4 <- read.csv("/Users/annisedobson/Dropbox (YSE)/Data/Lumb x deer/DeerxEW/AllMeasurements.2017.final.csv", check.names=T)
 
 # Scale the continuous predictor variables
 d4$deer <- as.factor(d4$deer)
