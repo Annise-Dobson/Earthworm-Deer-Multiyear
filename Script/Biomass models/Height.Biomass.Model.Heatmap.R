@@ -1,9 +1,12 @@
+#### Heatmap of height models ----
+## Code by A.M. Dobson
+# UPDATED January 26 2024
 
 library(lme4)
 library(lmerTest)
 library(MuMIn)
 library(readr)
-d4 <- read_csv("/Users/annisedobson/Dropbox (YSE)/Data/Lumb x deer/DeerxEW/AllMeasurements.2017.final.csv")
+d4 <- read_csv("Data.csv")
 
 # Scale the continuous predictor variables
 d4$deer <- scale(d4$deer)
