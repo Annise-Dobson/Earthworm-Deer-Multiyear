@@ -1,3 +1,7 @@
+#### Heatmap of survival models ----
+## Code by A.M. Dobson
+# UPDATED January 26 2024
+
 library(lme4)
 library(lmerTest)
 library(MuMIn)
