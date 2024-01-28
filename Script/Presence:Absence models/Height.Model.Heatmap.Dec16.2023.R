@@ -15,7 +15,6 @@ library(lme4)
 library(lmerTest)
 
 library(readr)
-d4 <- read_csv("DeerxEW/AllMeasurements.2017.final.csv")
 
 # Scale the continuous predictor variables
 d4$deer <- scale(d4$deer)
