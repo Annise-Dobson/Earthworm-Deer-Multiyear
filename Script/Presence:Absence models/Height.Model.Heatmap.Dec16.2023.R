@@ -1,3 +1,9 @@
+#### Height models - Presence/Absence (supplemental) ----
+## Code by A.M. Dobson
+# UPDATED January 26 2024
+
+d4 <- read_csv("Data.csv")
+
 # Load the necessary libraries
 if (!require(lme4)) {
   install.packages("lme4")
